@@ -1,0 +1,22 @@
+{
+  "name": "vue-3-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.2.1",
+    "vue": "^3.2.29"
+  },
+  "devDependencies": {
+    "@parcel/transformer-vue": "^2.2.1",
+    "@vue/compiler-sfc": "^3.2.29"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.esm-bundler.js"
+  },
+  "scripts": {
+    "watch": "parcel watch ./src/script.js",
+    "build": "parcel build ./src/script.js"
+  }
+}
